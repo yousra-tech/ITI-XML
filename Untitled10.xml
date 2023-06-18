@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family loc="cairo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\nermeen.amin\Desktop\Powe BI Cairo Univ\day 2\Untitled10.xsd">abc
+<grandfather> ali <!--fgfg-->
+   <father>ahmed
+        <mother job="engineer">sara</mother>
+			<daughter age="22" sport="football">hoda</daughter>
+			<daughter age="23" sport="football">ola</daughter>
+			<son age="20" sport="football">ahmed</son>
+		</father>
+		<father>moh
+        <mother job="engineer">sara</mother>
+			<daughter age="22" sport="football">hoda</daughter>
+			<son age="18" sport="football">ahmed</son>
+			<son age="15" sport="football">ahmed</son>
+		</father>
+		<uncle>moh</uncle>
+		<uncle>ahmed</uncle>
+		<uncle>ali</uncle>
+		<aunt job="doctor"/>
+	</grandfather>
+</family>

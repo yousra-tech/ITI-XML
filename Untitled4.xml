@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\nermeen.amin\Desktop\Powe BI Cairo Univ\day 2\Untitled4.xsd">
+	<father>
+		<name>ahmed</name>
+		<age>25</age>
+		<salary>5000</salary>
+	</father>
+</family>

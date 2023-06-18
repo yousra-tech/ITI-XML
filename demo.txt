@@ -1,0 +1,85 @@
+DTD issues:
+
+1-number of occurances 
+2-mixed content issues 
+<family> ahmed
+<name></name>
+</family>
+ <!ELEMENT family (#PCDATA|name)*>
+3-limitations of data types (no restriction)
+4- syntex complex
+5- DTD doesn't follow xml rules  
+6- not w3c  standard 
+
+-----------------
+w3c schema 
+ 
+advatanges
+-w3c standard 
+-follow xml rules  
+-various data types (int, string,date)
+-limit number of occuerances
+-save mixed content issue 
+-------------
+ namespace : group  elements and attributes to acheive some buissnes logic 
+using url 
+
+<Books>
+ <book> 
+   <isbn>123</isbn>
+   <author>goerge orwell</author>
+   <name> animal farm </name>
+  </book>
+ 
+<book> 
+ <from>alex</from>
+  <to>cairo</to>
+  <ticket>15</ticket
+  <author>goerge orwell</author> //wrong 
+</book>
+</Books>
+
+<!ELEMENT book (isbn | author |name|from|to|ticket) *>
+
+book read >> www.bookread.com
+book reserved >> www.bookticket.com
+
+<Books xmlns:br="www.bookread.com" xmlns:bt="www.bookticket.com" >
+ <book >
+ 
+   <br:isbn>123</br:isbn>
+   <br:author>goerge orwell</br:author>
+    <br:name> animal farm </br:name>
+  </book>
+ 
+<book > 
+   <bt:from>alex</bt:from>
+   <bt:to>cairo</bt:to>
+   <bt:ticket>15</bt:ticket
+  
+</book>
+</Books> 
+
+
+----------------------------
+schema >> follow w3c standard 
+ 
+-xsd
+
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="www.w3c.org/xml/schema">
+ 
+<xs:element></xs:element>
+</xs:schema>
+
+-------------
+xml 
+
+1-simple type 
+<family> ahmed </famil>
+
+2-complex type 
+<family/>
+<family> <father></father> </famil>
+<family> ahmed <father></father> </famil>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family SYSTEM "D:\yousra\iti\xml\day1\Lab\MyAssignment\Lab1a.dtd">
+<family>
+	<grandfather>elsayed
+		<father job="engineer">zaki
+			<mother>zainab
+			</mother>
+			<daughter age="20" job="engineer">radwa
+			</daughter>
+			<son age="25" sport="football">adam
+			</son>
+		</father>
+		<uncle>ahmed
+		</uncle>
+		<uncle>mohamed
+		</uncle>
+		<aunt sons="belal">marwa
+		</aunt>
+	</grandfather>
+</family>
